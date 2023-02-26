@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
-import Form from './Form';
+import { PhoneBookForm } from './PhoneBookForm';
 import Filter from './Filter';
 import ContactsList from './ContactsList';
 import { AppBox } from './App.styled';
@@ -57,7 +57,7 @@ class App extends Component {
     return (
       <AppBox>
         <h1>Phonebook</h1>
-        <Form onSubmit={this.handleSubmit} />
+        <PhoneBookForm onSubmit={this.handleSubmit} />
 
         <h2>Contacts</h2>
         <Filter onChange={this.handleChange} value={filter} />

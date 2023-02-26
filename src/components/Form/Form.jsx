@@ -27,20 +27,20 @@ class Form extends Component {
     return (
       <FormBox onSubmit={this.handleSubmit} autoComplete="off">
         <label>
-          <span>Name</span>
+          <p>Name</p>
           <InputName
             type="text"
             name="name"
             value={name}
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            title="Name may contain only letters, apostrophe, dash and spaces. 
-        For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+            title="Назва може містити лише літери, апостроф, тире та пробіли.
+            Наприклад: Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
             required
             onChange={this.handleChange}
           />
         </label>
         <label>
-          <span>Tel</span>
+          <p>Tel.number</p>
           <InputTel
             type="tel"
             name="number"

@@ -4,7 +4,7 @@ import { LabelFilter, InputFilter } from './Filter.styled';
 const Filter = ({ onChange, filter }) => {
   return (
     <LabelFilter>
-      <span>Find contacts by name</span>
+      <p>Find contacts by name</p>
       <InputFilter
         type="text"
         name="filter"

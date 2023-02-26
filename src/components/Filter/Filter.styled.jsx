@@ -4,7 +4,7 @@ export const LabelFilter = styled.label`
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  & span {
+  & p {
     margin-right: 10px;
     font-size: 18px;
     color: yellow;

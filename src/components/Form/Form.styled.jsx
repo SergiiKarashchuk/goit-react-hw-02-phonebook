@@ -8,7 +8,7 @@ export const FormBox = styled.form`
   border-radius: 5px;
   & label {
     display: block;
-    & span {
+    & p {
       display: block;
       margin-bottom: 5px;
     }
